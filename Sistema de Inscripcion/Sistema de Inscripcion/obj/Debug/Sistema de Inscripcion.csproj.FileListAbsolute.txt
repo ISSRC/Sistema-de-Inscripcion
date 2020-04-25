@@ -1,0 +1,8 @@
+C:\Users\Javito\Documents\Visual Studio 2013\Projects\Sistema de Inscripcion\Sistema de Inscripcion\bin\Sistema de Inscripcion.dll.config
+C:\Users\Javito\Documents\Visual Studio 2013\Projects\Sistema de Inscripcion\Sistema de Inscripcion\bin\Sistema de Inscripcion.dll
+C:\Users\Javito\Documents\Visual Studio 2013\Projects\Sistema de Inscripcion\Sistema de Inscripcion\bin\Sistema de Inscripcion.pdb
+C:\Users\Javito\Documents\Visual Studio 2013\Projects\Sistema de Inscripcion\Sistema de Inscripcion\obj\Debug\Sistema de Inscripcion.csprojResolveAssemblyReference.cache
+C:\Users\Javito\Documents\Visual Studio 2013\Projects\Sistema de Inscripcion\Sistema de Inscripcion\obj\Debug\Sistema de Inscripcion.dll
+C:\Users\Javito\Documents\Visual Studio 2013\Projects\Sistema de Inscripcion\Sistema de Inscripcion\obj\Debug\Sistema de Inscripcion.pdb
+C:\Users\Javito\Documents\Visual Studio 2013\Projects\Sistema de Inscripcion\Sistema de Inscripcion\bin\WebChart.DLL
+C:\Users\Javito\Documents\Visual Studio 2013\Projects\Sistema de Inscripcion\Sistema de Inscripcion\bin\AjaxControlToolkit.dll

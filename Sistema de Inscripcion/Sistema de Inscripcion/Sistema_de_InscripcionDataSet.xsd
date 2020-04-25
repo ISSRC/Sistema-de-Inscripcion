@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Sistema_de_InscripcionDataSet" targetNamespace="http://tempuri.org/Sistema_de_InscripcionDataSet.xsd" xmlns:mstns="http://tempuri.org/Sistema_de_InscripcionDataSet.xsd" xmlns="http://tempuri.org/Sistema_de_InscripcionDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="Sistema de InscripcionConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Sistema de InscripcionConnectionString1 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.Sistema de InscripcionConnectionString1.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Mesa_ExamenTableAdapter" GeneratorDataComponentClassName="Mesa_ExamenTableAdapter" Name="Mesa_Examen" UserDataComponentName="Mesa_ExamenTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Sistema de InscripcionConnectionString1 (Web.config)" DbObjectName="[Sistema de Inscripcion].dbo.Mesa_Examen" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Mesa, Materia, Fecha, Hora, Titular, Vocal1, Vocal2 FROM dbo.Mesa_Examen</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Mesa" DataSetColumn="Mesa" />
+              <Mapping SourceColumn="Materia" DataSetColumn="Materia" />
+              <Mapping SourceColumn="Fecha" DataSetColumn="Fecha" />
+              <Mapping SourceColumn="Hora" DataSetColumn="Hora" />
+              <Mapping SourceColumn="Titular" DataSetColumn="Titular" />
+              <Mapping SourceColumn="Vocal1" DataSetColumn="Vocal1" />
+              <Mapping SourceColumn="Vocal2" DataSetColumn="Vocal2" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Sistema_de_InscripcionDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Sistema_de_InscripcionDataSet" msprop:Generator_UserDSName="Sistema_de_InscripcionDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Mesa_Examen" msprop:Generator_TableClassName="Mesa_ExamenDataTable" msprop:Generator_TableVarName="tableMesa_Examen" msprop:Generator_TablePropName="Mesa_Examen" msprop:Generator_RowDeletingName="Mesa_ExamenRowDeleting" msprop:Generator_RowChangingName="Mesa_ExamenRowChanging" msprop:Generator_RowEvHandlerName="Mesa_ExamenRowChangeEventHandler" msprop:Generator_RowDeletedName="Mesa_ExamenRowDeleted" msprop:Generator_UserTableName="Mesa_Examen" msprop:Generator_RowChangedName="Mesa_ExamenRowChanged" msprop:Generator_RowEvArgName="Mesa_ExamenRowChangeEvent" msprop:Generator_RowClassName="Mesa_ExamenRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mesa" msprop:Generator_ColumnVarNameInTable="columnMesa" msprop:Generator_ColumnPropNameInRow="Mesa" msprop:Generator_ColumnPropNameInTable="MesaColumn" msprop:Generator_UserColumnName="Mesa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Materia" msprop:Generator_ColumnVarNameInTable="columnMateria" msprop:Generator_ColumnPropNameInRow="Materia" msprop:Generator_ColumnPropNameInTable="MateriaColumn" msprop:Generator_UserColumnName="Materia" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Hora" msprop:Generator_ColumnVarNameInTable="columnHora" msprop:Generator_ColumnPropNameInRow="Hora" msprop:Generator_ColumnPropNameInTable="HoraColumn" msprop:Generator_UserColumnName="Hora" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Titular" msprop:Generator_ColumnVarNameInTable="columnTitular" msprop:Generator_ColumnPropNameInRow="Titular" msprop:Generator_ColumnPropNameInTable="TitularColumn" msprop:Generator_UserColumnName="Titular" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Vocal1" msprop:Generator_ColumnVarNameInTable="columnVocal1" msprop:Generator_ColumnPropNameInRow="Vocal1" msprop:Generator_ColumnPropNameInTable="Vocal1Column" msprop:Generator_UserColumnName="Vocal1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Vocal2" msprop:Generator_ColumnVarNameInTable="columnVocal2" msprop:Generator_ColumnPropNameInRow="Vocal2" msprop:Generator_ColumnPropNameInTable="Vocal2Column" msprop:Generator_UserColumnName="Vocal2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

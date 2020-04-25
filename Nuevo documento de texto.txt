@@ -1,0 +1,4 @@
+Administrador:
+
+Usuario: Admin
+Contraseña: admin
